@@ -1,7 +1,11 @@
 # PAM250-matrix-match
-Matches your Amino acids based on PAM250 and returns the PAM score
+Matches your Amino acids based on PAM250 and returns the PAM score.
 
-## Make you sure you do the following:
+## Why did I make this?
+
+We had a task during our research to find PAM250 scores for the aligned AA of homospaiens compared to other species, and it was a very exhausting task. I simply made this script to facilitate the task for me and my colleagues.
+
+## How to run:
 
 1. Download the code file and run it using any IDE.
 
@@ -11,3 +15,4 @@ Matches your Amino acids based on PAM250 and returns the PAM score
 
 3.Run the code.
   If you need to end the code just type " end " without quotations in the first input as the print function says.
+
