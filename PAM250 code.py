@@ -18,8 +18,8 @@ def pam_score(amino1, amino2):
 # Test the function with an example amino acid pair
 while A_1 and A_2 != 0:
     print('Note: type END in the first input to terminate the program.')
-    A_1 = input('1. Enter your first AA: ').upper()
-    A_2 = input('2. Enter your second AA: ').upper()
+    A_1 = input('1. Enter your first AA:ACTGACCACTGAC ').upper()
+    A_2 = input('2. Enter your second AA:TCTGCCTCTGC ').upper()
     score = pam_score(A_1, A_2)
     print(score)
     if A_1 == 'END':
